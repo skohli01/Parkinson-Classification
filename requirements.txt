@@ -1,4 +1,4 @@
-pip install --upgrade pip 
+pip install
 streamlit
 transformers==4.31.0  
 datasets==2.14.5
