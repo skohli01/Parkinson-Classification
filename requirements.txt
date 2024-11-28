@@ -1,3 +1,4 @@
+--upgrade pip
 streamlit
 transformers==4.31.0  
 datasets==2.14.5
