@@ -5,4 +5,4 @@ tensorflow
 torch
 torchvision
 torchaudio
-tokenizers
+tokenizers==0.10.1
