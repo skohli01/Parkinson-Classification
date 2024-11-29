@@ -6,7 +6,8 @@ from transformers import pipeline
 # Load the Parkinson's classification pipeline
 @st.cache_resource
 def load_model():
-    pipe = pipeline("image-classification", "gianlab/swin-tiny-patch4-window7-224-finetuned-parkinson-classification")
+  # pipe = pipeline("image-classification", "gianlab/swin-tiny-patch4-window7-224-finetuned-parkinson-classification")
+    pipe = pipeline("image-classification", "skohli01/finetuned-parkinson-classification")
     return pipe
 pipe = load_model()
 
